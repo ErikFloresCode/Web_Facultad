@@ -48,7 +48,7 @@
                 
                 <div class="col-lg-7 mt-5 mt-lg-0">
                     <h1 class="mt-2 mb-4">Historia</h1>
-                    <p class="mb-4">Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero. Tempor ipsum at justo amet at ipsum justo. Aiam kasd sea sit dolor duo elitr dolor amet, justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores. Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor. Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.</p>
+                    <p class="mb-4">...</p>
                 </div>
 				<div class="col-lg-5">
                     <img class="img-thumbnail p-3" src="img/instalaciones-2.jpg" alt="">
