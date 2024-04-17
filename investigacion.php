@@ -1,3 +1,12 @@
+
+<?php 
+    include('BaseDatos.php');
+
+    $bd = new BaseDatos();
+    $row = $bd->consulta("select * from investigaciones;");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,16 +71,14 @@
                 </div>
             </div>
             <div class="row">
-				<?php for($i=1;$i<=6;$i++){ ?>
+				<?php foreach($row as $d){ ?>
 					<div class="col-md-4 mb-5">
 						<div class="d-flex">
 							<i class="fa fa-3x fa-pen text-primary mr-4"></i>
 							<div class="d-flex flex-column">
-								<h4 class="font-weight-bold mb-3">Web Design <?php echo $i?></h4>
-								<p>Et kasd justo clita amet kasd, vero amet vero eos kasd diam justo, ipsum diam sed elitr
-									erat</p>
-								<a class="font-weight-semi-bold" href="">Read More <i
-										class="fa fa-angle-double-right"></i></a>
+								<h4 class="font-weight-bold mb-3"><?php echo $d['titulo'];?> <?php echo $d['id'];?></h4>
+								<p><?php echo $d['descripcion'];?></p>
+								
 							</div>
 						</div>
 					</div>
