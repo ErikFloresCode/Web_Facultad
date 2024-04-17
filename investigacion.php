@@ -48,8 +48,17 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6 text-center mb-5">
                     <h1 class="mt-2 mb-3">Bienvenido</h1>
-                    <h4 class="font-weight-normal text-muted mb-4">En esta pagina de investigaciones de nuestra facultad. Aquí podrás encontrar una amplia gama de proyectos de investigación realizados por nuestros talentosos académicos y estudiantes. Nuestro objetivo es fomentar la excelencia en la investigación y contribuir al avance del conocimiento en diversas áreas del saber.</h4>
-					<h4 class="font-weight-normal text-muted mb-4">En este espacio, podrás explorar investigaciones innovadoras, estudios de vanguardia y publicaciones relevantes que reflejan el compromiso de nuestra facultad con la investigación de alta calidad. Además, te invitamos a descubrir los grupos de investigación activos, los laboratorios equipados con tecnología de punta y las colaboraciones interdisciplinarias que enriquecen nuestra comunidad académica.</h4>
+                    <h4 class="font-weight-normal text-muted mb-4">La ingeniería mecánica es un campo muy amplio que implica el uso de los 
+                        principios de la física para el análisis, diseño y fabricación de sistemas electromecánicos. Tradicionalmente, 
+                        a sido la rama de la ingeniería que mediante la aplicación de los principios físicos, ha permitido la creación de 
+                        dispositivos útiles, como utensilios y máquinas. Los ingenieros mecánicos usan principios como el calor, las fuerzas , 
+                        la conservación de la masa y de la energía para analizar sistemas físicos estáticos y dinámicos, contribuyendo a diseñar 
+                        objetos. La ingeniería mecánica es la rama que estudia y desarrolla las máquinas, equipos e instalaciones, considerando 
+                        siempre los aspectos ecológicos y económicos para el beneficio de la sociedad. Para cumplir con su labor, la ingeniería 
+                        mecánica analiza las necesidades, formula y soluciona problemas técnicos mediante un trabajo multidisciplinario y se apoya 
+                        en los desarrollos científicos, traduciéndolos en elementos, máquinas, equipos e instalaciones que presten un servicio 
+                        adecuado, mediante el uso racional y eficiente de los recursos disponibles.</h4>
+				<!--	<h4 class="font-weight-normal text-muted mb-4"></h4> !-->
                 </div>
             </div>
             <div class="row">

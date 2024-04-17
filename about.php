@@ -48,7 +48,13 @@
                 
                 <div class="col-lg-7 mt-5 mt-lg-0">
                     <h1 class="mt-2 mb-4">Historia</h1>
-                    <p class="mb-4">...</p>
+                    <p class="mb-4">La ingeniería mecánica es una de las ramas más antiguas e importantes de la ingeniería, dicha disciplina 
+                        estudia y perfecciona específicamente los principios de la termodinámica, trasferencia de calor, mecánica, vibraciones, 
+                        mecánica clásica, mecánica cuántica, mecánica de fluidos, análisis estructural, estática, dinámica, ecuación diferencial, 
+                        Ondas, Campos, trigonometría, cálculo vectorial, Teoría de control y ciencia de materiales para el diseño y análisis de 
+                        diversos elementos usados en la actualidad, tales como maquinaria con diversos fines (térmicos, hidráulicos, transporte, 
+                        manufactura, robótica), así como también de sistemas de ventilación, refrigeración, vehículos motorizados terrestres, 
+                        aéreos, marítimos y espaciales, entre otras aplicaciones.</p>
                 </div>
 				<div class="col-lg-5">
                     <img class="img-thumbnail p-3" src="img/instalaciones-2.jpg" alt="">
