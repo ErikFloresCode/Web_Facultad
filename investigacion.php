@@ -76,7 +76,8 @@
 						<div class="d-flex">
 							<i class="fa fa-3x fa-pen text-primary mr-4"></i>
 							<div class="d-flex flex-column">
-								<h4 class="font-weight-bold mb-3"><?php echo $d['titulo'];?> <?php echo $d['id'];?></h4>
+                                <img class="img-fluid" src="<?php echo $d['imagen']?>" alt="Image">
+								<h4 class="font-weight-bold mb-3"><?php echo $d['titulo'];?> </h4>
 								<p><?php echo $d['descripcion'];?></p>
 								
 							</div>

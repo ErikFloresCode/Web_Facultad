@@ -2,7 +2,7 @@
     <div class="container-fluid nav-bar p-0">
         <div class="container-lg p-0">
             <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                <a href="index.html" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0 text-white display-4"><span class="text-primary">F</span>ultad de <span class="text-primary">M</span>ecanica</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
