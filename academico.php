@@ -1,3 +1,12 @@
+
+<?php 
+    include('BaseDatos.php');
+
+    $bd = new BaseDatos();
+    $row = $bd->consulta("select * from carreras;");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,60 +55,25 @@
     <!-- Page Header Start -->
 
 	<!-- contenido start -->
-<center>	
-	<!-- Team Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="row">
-                
-                    <div class="owl-carousel team-carousel">
-                        <div class="team-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                          
-                            </div>
-                            <div class="border border-top-0 text-center" style="padding: 30px;">
-                                <h5 class="font-weight-bold">INGENERIA ELECTRICA</h5>
-                                <span>...</span>
-                            </div>
-                        </div>
-                        <div class="team-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                                
-                            </div>
-                            <div class="border border-top-0 text-center" style="padding: 30px;">
-                                <h5 class="font-weight-bold">INGENERIA MECANICA</h5>
-                                <span>...</span>
-                            </div>
-                        </div>
-                        <div class="team-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                                
-                            </div>
-                            <div class="border border-top-0 text-center" style="padding: 30px;">
-                                <h5 class="font-weight-bold">INGENERIA MECATRONICA</h5>
-                                <span>...</span>
-                            </div>
-                        </div>
-                        <div class="team-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                                
-                            </div>
-                            <div class="border border-top-0 text-center" style="padding: 30px;">
-                                <h5 class="font-weight-bold">INGENERIA ELECTROMECANICA</h5>
-                                <span>...</span>
-                            </div>
-                        </div>
+	
+	<!-- carreras Start -->
+    <div class="row">
+        <?php foreach($row as $d){ ?>
+            <div class="col-md-4 mb-5">
+                <div class="d-flex">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid" src="<?php echo $d['imagen']?>" alt="Image">
+                        <h4 class="font-weight-bold mb-3"><?php echo $d['Nombre'];?> </h4>
+                        
                     </div>
-                
+                </div>
             </div>
-        </div>
+        <?php }?>
     </div>
-    <!-- Team End -->
-	</center>
+
+
+    <!-- carreras End -->
+
 	<!-- contenido End -->
 	
     <?php include('footer.php'); ?>
