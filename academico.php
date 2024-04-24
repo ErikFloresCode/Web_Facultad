@@ -64,7 +64,6 @@
                     <div class="d-flex flex-column">
                         <img class="img-fluid" src="<?php echo $d['imagen']?>" alt="Image">
                         <h4 class="font-weight-bold mb-3"><?php echo $d['Nombre'];?> </h4>
-                        
                     </div>
                 </div>
             </div>

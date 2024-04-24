@@ -35,8 +35,7 @@
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5">
         <p class="m-0 text-center">
-            &copy; <a class="font-weight-semi-bold" href="#">yoursitename</a>. All Rights Reserved. Designed by
-            <a class="font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a>
+            &copy; <a class="font-weight-semi-bold" href="index.php">facultadmecanica</a>. USFX 2024
         </p>
     </div>
     <!-- Footer End -->

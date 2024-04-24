@@ -17,8 +17,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acceso</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="#" class="dropdown-item">Docentes</a>
-                                <a href="#" class="dropdown-item">Estudiantes</a>
+                                <a href="docentes_acceso.php" class="dropdown-item">Docentes</a>
+                                <a href="estudiantes_acceso.php" class="dropdown-item">Estudiantes</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>

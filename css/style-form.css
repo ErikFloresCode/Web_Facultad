@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 30px;
+    background-color:goldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    display: flex; /* Añade flexbox al contenedor. */
+    flex-direction: column; /* Alinea los elementos en una columna. */
+    align-items: center; /* Centra los elementos horizontalmente. */
+}
+
+.login-container form {
+    padding: 10px;
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho del contenedor. */
+    display: flex; /* Añade flexbox al formulario. */
+    flex-direction: column; /* Alinea los elementos del formulario en una columna. */
+    align-items: center; /* Centra los elementos del formulario horizontalmente. */
+}
+
+.login-container input[type="text"], .login-container input[type="password"], .login-container input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
