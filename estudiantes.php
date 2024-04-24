@@ -23,35 +23,26 @@
     <?php include('navbar.php')?>
 
     <!-- contenido  -->
-    <?php
-	include("BaseDatos.php");
-	
-	$bd = new BaseDatos();
-    
-    $sigla= $_POST["sigla"];
-	$asignatura = $_POST["asignatura"];
-    $curso = $_POST["curso"];
-    $grupo = $_POST["grupo"];
-    $sea = $_POST["sea"];
-    $parciales = $_POST["parciales"];
-    $practicas = $_POST["practicas"];
-    $laboratorio = $_POST["laboratorio"];
-    $nota_semifinal = $_POST["nota_semifinal"];
-    $ex_final = $_POST["ex_final"];
-    $nota_final = $_POST["nota_final"];
-    $segunda_inst = $_POST["segunda_inst"];
-    $ex_invierno_verano = $_POST["ex_invierno_verano"];
-	$url = $_POST["url"];
-	$estado = $_POST["estado"];
-	$sql = "insert into estudiantes(asignatura,curso,grupo,sea,parciales,practicas,laboratorio,nota_semifinal,ex_final,nota_final,
-    segunda_inst,ex_invierno_verano,url,estado) 
-    values('$asignatura','$curso','$sea','$grupo','$parciales','$practicas',
-    '$laboratorio','$nota_semifinal','$ex_final','$nota_final','$segunda_inst','$ex_invierno_verano','$url','$estado');";
-	//echo $sql;
-	
-	$rows = $bd->consulta($sql);
-	echo "Datos insertados";
-?>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>sigla</th>
+            <th>asignatura</th>
+            <th>curso</th>
+            <th>grupo</th>
+            <th>parciales</th>
+            <th>notas_parciales</th>
+            <th>practicas</th>
+            <th>laboratorio</th>
+            <th>nota_semifinal</th>
+            <th>ex_final</th>
+            <th>nota_final</th>
+            <th>segunda_inst</th>
+            <th>examen_invierno_verano</th>
+        </tr>
+    </thead>
+
+</table>
     <!-- contenido  -->
 
     <?php include('footer.php'); ?>
